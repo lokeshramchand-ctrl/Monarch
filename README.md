@@ -1,11 +1,5 @@
 # 🪙 Velar - Your AI-Powered Finance Assistant
 
-[![Flutter Version](https://img.shields.io/badge/Flutter-3.0+-blue.svg)](https://flutter.dev/)
-[![Node.js Version](https://img.shields.io/badge/Node.js-18+-green.svg)](https://nodejs.org/)
-[![MongoDB](https://img.shields.io/badge/MongoDB-5.0+-brightgreen.svg)](https://www.mongodb.com/)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](http://makeapullrequest.com)
-
 > **Velar** is a production-grade personal finance app that revolutionizes spending management through AI-powered categorization and smart analytics, specifically designed for India's UPI ecosystem.
 
 ## 🎯 Why Velar?
@@ -30,14 +24,10 @@ In India's rapidly growing digital payment landscape, users struggle to track ex
 - **Real-time Updates**: Live dashboard with instant transaction processing
 
 ### 🧭 **Premium Flutter UI**
-- **Luxury Design**: "Old money" inspired aesthetics with premium branding
+- **Minimal Design**: "Minimal" inspired aesthetics with simple branding
 - **Intuitive Navigation**: Chip-based filters and category-based organization
 - **Responsive Layout**: Optimized for all screen sizes and orientations
 
-### 🔐 **Enterprise-Grade Security**
-- **JWT Authentication**: Secure token-based authentication system
-- **Role-Based Access**: Scalable user management architecture
-- **Data Encryption**: End-to-end encryption for sensitive financial data
 
 ## 🏗️ System Architecture
 
@@ -135,99 +125,6 @@ flutter run
 3. **Run Training Cells**: Execute all cells to train the categorization model
 4. **Deploy Model**: Deploy the trained model to your preferred cloud service
 5. **Update Config**: Add the model endpoint to your environment variables
-
-### 🔥 Firebase Setup
-
-1. **Create Project**: Go to [Firebase Console](https://console.firebase.google.com/)
-2. **Enable FCM**: Navigate to Cloud Messaging in project settings
-3. **Download Config**: 
-   - `google-services.json` for Android
-   - `GoogleService-Info.plist` for iOS
-4. **Add to Project**: Place config files in respective platform folders
-
-## 📁 Project Structure
-
-```
-velar/
-├── backend/
-│   ├── src/
-│   │   ├── controllers/
-│   │   │   ├── auth.controller.js
-│   │   │   ├── transaction.controller.js
-│   │   │   └── analytics.controller.js
-│   │   ├── middleware/
-│   │   │   ├── auth.middleware.js
-│   │   │   └── validation.middleware.js
-│   │   ├── models/
-│   │   │   ├── User.js
-│   │   │   ├── Transaction.js
-│   │   │   └── Category.js
-│   │   ├── routes/
-│   │   │   ├── auth.routes.js
-│   │   │   ├── transaction.routes.js
-│   │   │   └── analytics.routes.js
-│   │   ├── services/
-│   │   │   ├── sms.parser.js
-│   │   │   ├── ai.categorizer.js
-│   │   │   └── notification.service.js
-│   │   └── utils/
-│   │       ├── database.js
-│   │       ├── logger.js
-│   │       └── validators.js
-│   ├── package.json
-│   └── server.js
-├── frontend/
-│   ├── lib/
-│   │   ├── screens/
-│   │   │   ├── auth/
-│   │   │   ├── dashboard/
-│   │   │   ├── analytics/
-│   │   │   └── profile/
-│   │   ├── widgets/
-│   │   │   ├── cards/
-│   │   │   ├── charts/
-│   │   │   └── common/
-│   │   ├── services/
-│   │   │   ├── api.service.dart
-│   │   │   ├── auth.service.dart
-│   │   │   └── notification.service.dart
-│   │   ├── models/
-│   │   │   ├── user.model.dart
-│   │   │   ├── transaction.model.dart
-│   │   │   └── category.model.dart
-│   │   ├── providers/
-│   │   │   ├── auth.provider.dart
-│   │   │   ├── transaction.provider.dart
-│   │   │   └── analytics.provider.dart
-│   │   └── utils/
-│   │       ├── constants.dart
-│   │       ├── helpers.dart
-│   │       └── theme.dart
-│   ├── pubspec.yaml
-│   └── main.dart
-├── ml_model/
-│   ├── training/
-│   │   ├── train_model.ipynb
-│   │   ├── data_preprocessing.py
-│   │   └── model_evaluation.py
-│   ├── deployment/
-│   │   ├── inference_server.py
-│   │   └── model_utils.py
-│   └── datasets/
-│       ├── transaction_data.csv
-│       └── category_mapping.json
-├── docs/
-│   ├── API.md
-│   ├── DEPLOYMENT.md
-│   └── ARCHITECTURE.md
-├── .github/
-│   └── workflows/
-│       ├── ci.yml
-│       └── cd.yml
-├── README.md
-├── LICENSE
-└── .gitignore
-```
 
 ## 📸 Screenshots
 
