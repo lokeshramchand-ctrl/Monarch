@@ -108,7 +108,7 @@ class StatisticsState extends State<Statistics> with TickerProviderStateMixin {
   Future<void> fetchTransactions({String category = 'All'}) async {
     setState(() => isLoading = true);
     try {
-      final uri = Uri.parse('http://192.168.1.9:3000/api/transactions').replace(
+      final uri = Uri.parse('http://192.168.1.8:3000/api/transactions').replace(
         queryParameters: category == 'All' ? null : {'category': category},
       );
       final response = await http.get(uri);
