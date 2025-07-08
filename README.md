@@ -128,18 +128,14 @@ flutter run
 
 ## 📸 Screenshots
 
-### Dashboard Overview
-*[Insert screenshot of main dashboard with balance cards and transaction feed]*
 
-### SMS Parsing in Action
-*[Insert screenshot showing SMS being parsed and categorized]*
 
-### Analytics Dashboard
-*[Insert screenshot of charts and spending insights]*
-
-### Category Management
-*[Insert screenshot of category selection and management]*
-
+<div align="center">
+  <img src="./images/one.jpg" alt="Add Expense" width="200">
+  <img src="./images/two.jpg" alt="Statistics" width="200">
+  <img src="./images/three.jpg" alt="Snackbar" width="200">
+  <br>
+</div>
 ## 🧪 Test Data & Examples
 
 ### Sample Transaction SMS
