@@ -260,29 +260,7 @@ We welcome contributions from the community! Please follow these guidelines:
 
 ## 📞 Support & Contact
 
-- **Email**: support@velar.app
-- **Discord**: [Join our community](https://discord.gg/velar)
-- **Twitter**: [@VelarApp](https://twitter.com/VelarApp)
-- **LinkedIn**: [Velar Finance](https://linkedin.com/company/velar)
+- **Email**: lokeshramchand@gmail.com
+- **Medium**: [@lokeshramchand](https://medium.com/@lokeshramchand)
+- **LinkedIn**: [lokeshramchand-b](https://www.linkedin.com/in/lokesh-ram-chand-b-b276bb291/)
 
-## 📄 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-## 🙏 Acknowledgments
-
-- **Google Colab**: For providing free GPU resources for ML training
-- **Firebase**: For robust backend infrastructure
-- **Flutter Team**: For the amazing cross-platform framework
-- **Open Source Community**: For the incredible libraries and tools
-
----
-
-<div align="center">
-  <p>Made with ❤️ in India for the global financial ecosystem</p>
-  <p>
-    <a href="https://github.com/yourusername/velar">⭐ Star this repo</a> •
-    <a href="https://github.com/yourusername/velar/issues">🐛 Report Bug</a> •
-    <a href="https://github.com/yourusername/velar/issues">✨ Request Feature</a>
-  </p>
-</div>
